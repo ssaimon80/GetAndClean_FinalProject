@@ -1,7 +1,7 @@
 require(dplyr);
 
 envVars <- ls();
-execFolder <- "./GettingAndCleaningData/";
+execFolder <- "";
 
 #ensure that we have the zip archive in the proper location
 source(paste0(execFolder, "dataDownload.R"));
